@@ -100,4 +100,11 @@ Documentation pour CartoDB.js
     </body>
     </html>
 
+# Requête SQL et CartoCSS
+
+    var subLayerOptions = {
+      sql: "SELECT * FROM tableboutons where type = 'bornes'",
+      cartocss: "#tableboutons{marker-fill: #109DCD; marker-width: 25; marker-line-color: white; marker-line-width: 5;}"
+    }
+
 # Boutons et requêtes SQL 
